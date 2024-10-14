@@ -11,6 +11,7 @@ class StrategyTool extends Tool {
 
   async _call(input) {
     const searchTerm = encodeURIComponent(input.trim());
+
     try {
       const response = await axios.get(`https://www.wowhead.com/search?q=${searchTerm}`);
       const $ = cheerio.load(response.data);

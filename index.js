@@ -19,7 +19,7 @@ async function main() {
   const memory = new BufferMemory();
   const agentExecutor = await initializeAgent(model, memory);
 
-  console.log("Bienvenue dans l'agent conversationnel WoW ! Posez vos questions sur les joueurs ou les stratégies.");
+  console.log("Bienvenue dans l'agent conversationnel WoW ! Posez vos questions sur les joueurs, les stratégies, ou toute autre information liée à World of Warcraft.");
 
   const rl = readline.createInterface({
     input: process.stdin,

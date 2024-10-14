@@ -1,0 +1,27 @@
+{
+  "name": "agent-wow",
+  "version": "1.0.0",
+  "description": "Agent conversationnel WoW utilisant Langchain et Langsmith",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wow",
+    "langchain",
+    "langsmith",
+    "agent"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.3.7",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.2",
+    "langsmith": "^0.1.65"
+  }
+}
